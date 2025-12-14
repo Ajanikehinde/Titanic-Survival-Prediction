@@ -23,7 +23,8 @@ Features include passenger demographics, ticket class, fare, and family structur
 - Random Forest
 
 ## Results
-Random Forest achieved the best performance based on accuracy and F1-score.
+Logistic Regression achieved the best performance based on accuracy and F1-score.
+Based on empirical results, Logistic Regression outperformed the other models across accuracy, precision, recall, and F1-score. Despite being a simpler model, it generalized better to unseen data, making it the most reliable choice.
 
 ## Tools Used
 Python, Pandas, NumPy, Seaborn, Scikit-learn, Jupyter Notebook
